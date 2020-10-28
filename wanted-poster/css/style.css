@@ -53,7 +53,6 @@ main {
 
 
 /* Headings  */
-
 h1 {
     text-transform: uppercase;
     font-size:6rem;
@@ -65,15 +64,107 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-size:3rem;
+    margin: 0;
+    letter-spacing: .25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+    font-weight: normal;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size:2rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:black;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+    font-weight: normal;
+}
+
+h4{ 
+    text-transform: uppercase;
+    font-size:1.5rem;
+    padding-bottom: 1.125rem;
+    letter-spacing: .25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+h4 > span{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size:1rem;
+    margin-top:.25rem;
+    padding: .5rem;
+    letter-spacing: .5;
+    color:#FFF;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+    font-weight: normal;
+    background-color: #333;
+}
 
 /* Section & Paragraph */
+section {
+    margin-top: .5rem;
+}
 
-
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
+figure {
+    margin-bottom: 2rem;
+}
 
+figcaption {
+    padding-top:.5rem;
+    text-align: right;
+}
 
+img {
+    width:100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+	margin-right: auto;
+    margin-left: auto;
+    max-width: 50rem;
+}
 
 /* Footer */
-
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-top: 2rem solid #333;
+    
+}
 
