@@ -112,12 +112,12 @@ h5 {
     margin-top:.25rem;
     padding: .5rem;
     letter-spacing: .5;
+    background-color: #333;
     color:#FFF;
     text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
+    font-family: Garamond, serif;
     text-align:center;
     font-weight: normal;
-    background-color: #333;
 }
 
 /* Section & Paragraph */
