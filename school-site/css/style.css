@@ -78,43 +78,133 @@ header, footer {
 
 
 /* Imported Typfaces */
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/montserrat-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
-
-
+@font-face {
+    font-family: Josefinslab;
+    src: url(fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Typography Styles */
+html {
+    font-family: Montserrat, Josefinslab, sans-serif;
+}
 
+h1 {
+    letter-spacing: .125rem;
+    font-family: Josefinslab, serif;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+}
 
+h2 {
+    letter-spacing: .125rem;
+    font-family: Josefinslab, serif;
+    font-size: 1.5rem;
+}
 
+h2 + p {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+}
 
+p {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+}
 
+li {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+}
+
+figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem; 
+}
 
 /* Link Styling */
+a {
+    outline: none;
+}
 
+a:link,
+a:visited {
+    outline: none;
+    color: #33658A;
+}
 
-
-
-
+a:focus,
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
 
 /* List Styling */
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: square;
+}
 
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lower-alpha; 
+}
 
-
-
-
+.long-list a:hover {
+    text-transform: uppercase;
+}
 
 /* Navigation Menu */
+nav {
+    padding-left: 0rem;
+    margin-top: .25rem;
+}
 
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: .0625rem solid #33658A;
+}
 
+nav a:focus, 
+nav a:hover {
+    color: #FFF;
+    background-color: #33658A;
+}
 
-
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 
 
 /* Footer Styles */
-
-
-
-
-
-
+footer {
+    text-align: center;
+}
