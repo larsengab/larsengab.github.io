@@ -47,5 +47,231 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+* {
+    box-sizing: border-box;
+}
+
+html {
+   font-family: Roboto, "Arial", sans-serif;
+}
+
+header {
+    
+}
+
+nav {
+    min-width: 48rem;
+}
+
+@font-face {
+    font-family: "Ultra";
+    src: url(../fonts/serif/ultra-regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.blog{
+
+  padding-top:0.25rem;
+  padding-bottom:0.25rem;
+  transform: rotate(7deg);
+  color:black;
+  text-decoration:line-through;
+  text-transform:uppercase;
+}
+
+main, footer {
+    margin: 1.25rem auto;
+    width: 90%;
+    min-width: 45rem;
+}
+
+footer {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+footer p:nth-child(1) {
+    float: left;
+    margin: 0;
+}
+
+footer p:nth-child(2) {
+    text-align: right;
+    padding-left: 48rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6f7d77;
+}
+
+footer a:visited {
+    color: blueviolet
+}
+
+footer a:active {
+    color: red;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 0.75rem;
+}
+
+.subsection {
+    display: flex;
+    margin-top: 4rem;
+}
+
+article {
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 2rem;
+}
+
+article p:first-of-type {
+    margin-top: 0;
+}
+
+aside {
+    grid-column: 2;
+    grid-row: 1;
+    border-left: 2px solid #333;
+    padding-left: 2.5rem;
+}
 
 
+aside h3:first-of-type {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    transform: rotate(-5deg);
+    color: #333;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    text-shadow: 2px 2px 2px #333;
+    letter-spacing: 0.1rem;
+}
+
+h1 span {
+    display: inline-block;
+    font-size: 4rem;
+    font-family: Ultra, serif;
+    color: #eaeada;
+    background-color: #82344c;
+    padding: .1rem 1rem;
+    border-radius: 1rem 0 1rem 0;
+    font-weight: normal;
+    box-shadow: 3px 3px 3px #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #333;
+    margin: 1rem auto;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+aside p {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #333;
+}
+
+time {
+    font-style: italic;
+    font-size: .8rem;
+}
+
+nav {
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding-left: 3rem;
+	padding-right: 32rem;
+    margin-bottom: 4rem;
+}
+
+nav a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #26456b;
+    display: inline-block;
+    padding: 2rem 2.5rem 1.75rem 2rem;
+}
+
+nav a:focus {
+    transform: rotate(4deg);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: line-through;
+    padding-right: 2.5rem;
+    position: relative;
+    top: -.25rem;
+}
+
+.subsection figure {
+    margin: 0;
+    margin-right: 0.5rem;
+    background-color: #ededdc;
+}
+
+.article-image {
+    float: left;
+    margin-right: 1rem;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 33%;
+}
+
+figcaption {
+    padding: 0.75em .75em;
+    font-size: 0.75rem;
+}
+
+button {
+    margin-top: 2.5rem;
+    font-family: Ultra, serif;
+    font-size: 1.5rem;
+    color: #ededdc;
+    padding: 1rem 1rem;
+    background-color: #284870;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 32rem 32rem 32rem #333;
+}
+
+.expand {
+    display: block;
+    font-size: .25rem;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
